@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Network Engineer from South Africa, working in th UK for Cisco
+Network Engineer from South Africa, working in the UK for Cisco
 
 ### Contact me
 
