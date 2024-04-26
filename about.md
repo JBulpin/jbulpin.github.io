@@ -6,4 +6,6 @@ permalink: /about/
 
 Network Engineer from South Africa, working in th UK for Cisco
 
-[jacbulpin@gmail.com] (mailto:jacbulpin@gmail.com)
+### Contact me
+
+[jacbulpin@gmail.com](mailto:jacbulpin@gmail.com)
