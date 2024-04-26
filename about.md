@@ -12,4 +12,4 @@ Network Engineer from South Africa, working in th UK for Cisco
 
 ### Contact me
 
-### [email@domain.com](mailto:jacbulpin@gmail.com)
+[email@domain.com] (mailto:jacbulpin@gmail.com)
