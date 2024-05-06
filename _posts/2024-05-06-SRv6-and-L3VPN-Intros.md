@@ -31,6 +31,7 @@ Why is this all important because we are replacing the transport label for the P
 <img src="/_posts/images/SRv6.png" alt="SRv6">
 _posts/Images/SRv6/SRv6.png
 ![SRv6.png](Images%2FSRv6%2FSRv6.png)
+![SRv6.png](Images%2FSRv6%2FSRv6.png)
 
 
 I’m going to oversimplify things in the operation and exclude a few bits and maybe leave that for a deeper dive in the future but SRv6 this is where things get more fun… 
@@ -40,3 +41,5 @@ In our scenario we are transporting IPv4 traffic and leveraging an IPv6 underlay
 In the SRv6 Scenario PE-2 has an MP-iBGP peering with PE-1, advertisement 10.10.1.1 is passed onto PE-1 indicating that this prefix is reachable via PE-2 utilizing the Service-SID (IPv6 Address such as fc00:0:ff86::) this Prefix will be installed in PE-1 within BGP and become a routable destination under the VRF indicating that if CE-1 wants to reach the prefix of 10.10.1.1 it will be encapsulated with an IPv6 packet with the destination of the Service-SID received from PE-2.
 
 We have achieved the same result between the variations, so why change? The goal is to always find a balance between simplification and improving network steering capability which in the past has increased complexity and planning with the likes of RSVP-TE. MPLS leverages LDP + IGP, SR-MPLS collapses these two into one so no need for LDP, and with SRv6 we are going even further using IPv6 itself
+
+![SRv6-intro image.png](Images%2FSRv6%2FSRv6-intro%20image.png)
