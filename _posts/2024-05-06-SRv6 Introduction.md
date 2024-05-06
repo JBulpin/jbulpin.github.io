@@ -1,5 +1,6 @@
 ## SRV6 and why you should care...
 
+[_posts/images/SRv6/intro image.png](_posts/images/SRv6/intro image.png)
 
 ![intro image.png]({{site.baseurl}}/_posts/images/SRv6/intro image.png)
 
@@ -32,6 +33,4 @@ In our scenario we are transporting IPv4 traffic and leveraging an IPv6 underlay
 
 In the SRv6 Scenario PE-2 has an MP-iBGP peering with PE-1, advertisement 10.10.1.1 is passed onto PE-1 indicating that this prefix is reachable via PE-2 utilizing the Service-SID (IPv6 Address such as fc00:0:ff86::) this Prefix will be installed in PE-1 within BGP and become a routable destination under the VRF indicating that if CE-1 wants to reach the prefix of 10.10.1.1 it will be encapsulated with an IPv6 packet with the destination of the Service-SID received from PE-2.
 
-We have achieved the same result between the variations, so why change? The goal is to always find a balance between simplification and improving network steering capability which in the past has increased complexity and planning with the likes of RSVP-TE. MPLS leverages LDP + IGP, SR-MPLS collapses these two into one so no need for LDP, and with SRv6 we are going even further using IPv6 itself  
-
-
+We have achieved the same result between the variations, so why change? The goal is to always find a balance between simplification and improving network steering capability which in the past has increased complexity and planning with the likes of RSVP-TE. MPLS leverages LDP + IGP, SR-MPLS collapses these two into one so no need for LDP, and with SRv6 we are going even further using IPv6 itself
