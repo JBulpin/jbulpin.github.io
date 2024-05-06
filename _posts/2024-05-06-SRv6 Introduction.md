@@ -1,6 +1,5 @@
 ## SRV6 and why you should care...
-
-[_posts/images/SRv6/intro image.png](_posts/images/SRv6/intro image.png)
+![]({{site.baseurl}}_posts/images/SRv6/intro image.png)
 
 ![intro image.png]({{site.baseurl}}/_posts/images/SRv6/intro image.png)
 
