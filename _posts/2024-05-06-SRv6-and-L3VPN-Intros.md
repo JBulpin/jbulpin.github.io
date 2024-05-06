@@ -1,6 +1,6 @@
 ## SRV6 and why you should care...
 
-![intro image.png]({{site.baseurl}}/_posts/intro-image.png)
+[![intro image.png]({{site.baseurl}}/_posts/intro-image.png)]()
 
 If you are a tech enthusiast or work in the Service provider space its likely you have awareness of Segment-Routing or SRv6. I find that most customers or colleagues have knowledge of SR-MPLS but very few understand SRv6 and how it works. Many engineers are either IPv6 Evangelists or are still very intimidated by the protocol and subnetting, I’m hoping SRv6 is a strong reason to get familiar with IPv6 as its fundamental to building your transport.
 
@@ -24,7 +24,7 @@ One of the major benefits of SR-MPLS is the removal of LDP protocol which we use
 Why is this all important because we are replacing the transport label for the Prefix-SID as you can see from the diagram, PE-2 Egress router still advertises prefixes leveraging MP-BGP but to help reach this prefix the IGP assists, in this case we are steering towards the Prefix-SID identifier 100, which all routers along the path know is associated with 10.10.1.1, the Prefix SID unlike the MPLS label does not change as all nodes have associated this prefix with the SID which as mentioned is globally significant because of the IGP
 
 ![SRv6.png]({{site.baseurl}}/_posts/Images/SRv6/SRv6.png)
-![Alt text](/_posts/Images/SRv6/SRv6.png)
+![Alt text](/posts/Images/SRv6/SRv6.png)
 
 I’m going to oversimplify things in the operation and exclude a few bits and maybe leave that for a deeper dive in the future but SRv6 this is where things get more fun… 
 
