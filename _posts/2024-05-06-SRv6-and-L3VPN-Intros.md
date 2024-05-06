@@ -1,7 +1,7 @@
 ## SRV6 and why you should care...
 
-[![intro image.png]({{site.baseurl}}/_posts/intro-image.png)]
 ![SRv6 - SR-MPLS.png](..%2FSRv6%20-%20SR-MPLS.png)
+
 
 If you are a tech enthusiast or work in the Service provider space its likely you have awareness of Segment-Routing or SRv6. I find that most customers or colleagues have knowledge of SR-MPLS but very few understand SRv6 and how it works. Many engineers are either IPv6 Evangelists or are still very intimidated by the protocol and subnetting, I’m hoping SRv6 is a strong reason to get familiar with IPv6 as its fundamental to building your transport.
 
@@ -29,6 +29,8 @@ Why is this all important because we are replacing the transport label for the P
 ![SRv6.png]({{site.baseurl}}/_posts/Images/SRv6/SRv6.png)
 ![Alt text](/posts/Images/SRv6/SRv6.png)
 <img src="/_posts/images/SRv6.png" alt="SRv6">
+_posts/Images/SRv6/SRv6.png
+![SRv6.png](Images%2FSRv6%2FSRv6.png)
 
 
 I’m going to oversimplify things in the operation and exclude a few bits and maybe leave that for a deeper dive in the future but SRv6 this is where things get more fun… 
