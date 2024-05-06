@@ -1,8 +1,7 @@
-## A New Post
+## SRV6 and why you should care...
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 
-![intro image.png]({{site.baseurl}}/_posts/intro image.png)
+![intro image.png]({{site.baseurl}}/_posts/images/SRv6/intro image.png)
 
 If you are a tech enthusiast or work in the Service provider space its likely you have awareness of Segment-Routing or SRv6. I find that most customers or colleagues have knowledge of SR-MPLS but very few understand SRv6 and how it works. Many engineers are either IPv6 Evangelists or are still very intimidated by the protocol and subnetting, I’m hoping SRv6 is a strong reason to get familiar with IPv6 as its fundamental to building your transport.
 
