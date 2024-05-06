@@ -23,7 +23,8 @@ One of the major benefits of SR-MPLS is the removal of LDP protocol which we use
 
 Why is this all important because we are replacing the transport label for the Prefix-SID as you can see from the diagram, PE-2 Egress router still advertises prefixes leveraging MP-BGP but to help reach this prefix the IGP assists, in this case we are steering towards the Prefix-SID identifier 100, which all routers along the path know is associated with 10.10.1.1, the Prefix SID unlike the MPLS label does not change as all nodes have associated this prefix with the SID which as mentioned is globally significant because of the IGP
 
-![SRv6.png]({{site.baseurl}}/_posts/SRv6.png)
+![SRv6.png]({{site.baseurl}}/_posts/Images/SRv6/SRv6.png)
+![Alt text](/_posts/Images/SRv6/SRv6.png)
 
 I’m going to oversimplify things in the operation and exclude a few bits and maybe leave that for a deeper dive in the future but SRv6 this is where things get more fun… 
 
