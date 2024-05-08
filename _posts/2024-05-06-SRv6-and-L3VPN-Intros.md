@@ -1,3 +1,8 @@
+---
+layout: post
+title: Markdown Style Guide
+---
+
 ## SRV6 and why you should care...
 
 
