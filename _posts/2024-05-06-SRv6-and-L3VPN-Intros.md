@@ -3,9 +3,6 @@ layout: post
 title: L3VPNs and IPv4 - The move to SRv6
 ---
 
-## SRV6 and why you should care...
-
-
 If you are a tech enthusiast or work in the Service provider space its likely you have awareness of Segment-Routing or SRv6. I find that most customers or colleagues have knowledge of SR-MPLS but very few understand SRv6 and how it works. Many engineers are either IPv6 Evangelists or are still very intimidated by the protocol and subnetting, I’m hoping SRv6 is a strong reason to get familiar with IPv6 as its fundamental to building your transport.
 
 I aim to demystify this concept at a basic level and provide understanding for a common use case, L3VPN for IPv4 traffic which most engineers are strongly familiar.
