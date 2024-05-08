@@ -16,6 +16,7 @@ Just before traffic reaches the Egress PE-2 the Transport label is removed expos
 
 ![SRv6 - SR-MPLS.png](..%2FSRv6%20-%20SR-MPLS.png)
 
+
 In SR-MPLS there is an additional learning curve of Segment Routing Traffic Engineering (SR-TE) but if you are going deploy L3VPNs today I would encourage you leverage SR-MPLS as you don’t need to enable any traffic-engineering capabilities which will simplify operations and remain familiar to any engineer who MPLS experience.
 
 In Segment routing we have the concept of Segment-ID’s (SID’s) these are identifiers that are globally significant such as the Prefix-SID which is for advertised Prefixes, Node-SID which is for PE/P nodes to stay unique within the SR Domain and adjacency-SID which is locally significant for link identifiers, these are characteristics that SR uses to identify components within a Domain 
