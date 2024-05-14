@@ -26,7 +26,7 @@ Why is this all important because we are replacing the transport label for the P
 
 ![3 - SRV6 - SRV6.png](..%2Fimages%2FSRv6%2F3%20-%20SRV6%20-%20SRV6.png)
 
-I’m going to oversimplify things in the operation and exclude a few bits and maybe leave that for a deeper dive in the future but SRv6 this is where things get more fun… 
+I’m going to simplify things in the operation and maybe leave that for a deeper dive in the future, but SRv6 this is where things get more fun… 
 
 In our scenario we are transporting IPv4 traffic and leveraging an IPv6 underlay. In SRv6 we have another SID which is called the Service-SID which comes in the form of an IPv6 address, this is like a label in MPLS that is advertised along with the IPv4 prefix that is the destination prefix. 
 
